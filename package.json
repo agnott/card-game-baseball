@@ -1,0 +1,29 @@
+{
+  "name": "card-game-baseball",
+  "version": "0.0.0",
+  "description": "An online baseball card game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/agnott/card-game-baseball.git"
+  },
+  "keywords": [
+    "baseball",
+    "card",
+    "game",
+    "online"
+  ],
+  "author": "Andrew Gnott",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/agnott/card-game-baseball/issues"
+  },
+  "dependencies": {
+    "express": "~4.15.3",
+    "socket.io": "~2.0.2",
+    "dotenv": "~4.0.0"
+  }
+}
