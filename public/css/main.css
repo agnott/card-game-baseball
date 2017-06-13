@@ -1,0 +1,32 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+div{
+  box-sizing: border-box;
+}
+
+.ribbon{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.ribbon-button{
+  height: 100px;
+  width: 100px;
+  padding-top: 50px;
+  background-color: green;
+  color: white;
+
+  display: inline-block;
+  font-size: 4em;
+  line-height: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.ribbon-button:hover{
+  background-color: darkgreen;
+}
